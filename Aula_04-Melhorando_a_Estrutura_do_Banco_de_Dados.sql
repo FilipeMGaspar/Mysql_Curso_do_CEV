@@ -2,6 +2,8 @@ create database cadastro
 default character set utf8
 default collate utf8_general_ci;
 
+use cadastro;
+
 create table pessoas (
 	nome varchar(30) not null,
     nascimento date,
