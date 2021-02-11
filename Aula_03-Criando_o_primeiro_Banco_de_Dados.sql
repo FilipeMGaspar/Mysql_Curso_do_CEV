@@ -8,3 +8,5 @@ create table pessoas(
     altura float,
     nacionalidade varchar(20)
 );
+
+describe pessoas;
