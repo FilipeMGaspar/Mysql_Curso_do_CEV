@@ -1,3 +1,5 @@
+drop database cadastro;
+
 create database cadastro 
 default character set utf8
 default collate utf8_general_ci;
@@ -14,3 +16,7 @@ create table pessoas (
     nacionalidade varchar(20) default 'Português',
     primary key (id)
 ) default charset = utf8;
+
+
+create database meubanco;
+drop database meubanco;
