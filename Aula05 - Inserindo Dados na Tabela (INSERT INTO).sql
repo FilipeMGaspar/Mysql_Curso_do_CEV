@@ -32,3 +32,8 @@ values
 ('Maria', '1999-12-20', 'f', '48.5', '1.2', 'Portugal');
 
 select * from pessoas;
+
+insert into pessoas
+(id, nome, nascimento, sexo, peso, altura, nacionalidade)
+values 
+(default, 'Creuza', '1945-04-02', 'F', '57.8', '1.65', default);
