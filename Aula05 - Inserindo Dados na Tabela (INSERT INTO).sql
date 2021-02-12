@@ -17,6 +17,6 @@ create table pessoas (
 
 use cadastro;
 insert into pessoas
-(id, nome, nascimento, sexo, peso, altura, nacionalidade)
-values
-('1', 'Godofredo', '1984-01-02'. 'M', '78.5', '1.8', 'Brasil');
+(nome, nascimento, sexo, peso, altura, nacionalidade)
+values 
+('Godofredo', '1984-01-02', 'M', '78.5', '1.8', 'Brasil');
