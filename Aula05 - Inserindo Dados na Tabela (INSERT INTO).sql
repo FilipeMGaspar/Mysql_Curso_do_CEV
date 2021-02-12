@@ -53,4 +53,3 @@ values
 (default, 'Janaina', '1987-11-12','F', '68.9', '1.63', 'Espanha');
 
 select * from pessoas;
-
