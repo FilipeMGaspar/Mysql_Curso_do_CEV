@@ -15,3 +15,5 @@ create table pessoas (
     primary key (id)
 ) default charset = utf8;
 
+use cadastro;
+
