@@ -49,7 +49,8 @@ select * from pessoas;
 insert into pessoas
 values 
 (default, 'Claudio', '1978-09-15','M', '95.9', '2.15', 'USA'),
-(default, 'Pedro', '1999-03-25','M', '85.9', '1.70', default),
+(default, 'Pedro', '1999-03-25','M', '85.9', '2', default),
 (default, 'Janaina', '1987-11-12','F', '68.9', '1.63', 'Espanha');
 
+select * from pessoas;
 
