@@ -22,7 +22,7 @@ use cadastro;
 insert into pessoas
 (nome, nascimento, sexo, peso, altura, nacionalidade)
 values 
-('Godofredo', '1984-01-02', 'M', '78.5', '1.8', 'Brasil');
+('Godofredo', '1999-01-02', 'M', '78.5', '1.8', 'Brasil');
 
 select * from pessoas;
 
@@ -37,3 +37,9 @@ insert into pessoas
 (id, nome, nascimento, sexo, peso, altura, nacionalidade)
 values 
 (default, 'Creuza', '1945-04-02', 'F', '57.8', '1.65', default);
+
+select * from pessoas;
+
+insert into pessoas
+values 
+(default, 'Adlgita', '1979-08-15','F', '65.9', '1.70', 'Irlanda');
