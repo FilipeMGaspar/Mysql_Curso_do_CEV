@@ -22,3 +22,5 @@ add column codigo int first;
 
 desc pessoas;
 
+alter table pessoas
+modify column profissao varchar(20);
