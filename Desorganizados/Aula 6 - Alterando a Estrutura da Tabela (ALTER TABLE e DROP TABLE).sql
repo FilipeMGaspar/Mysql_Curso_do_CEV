@@ -70,3 +70,4 @@ insert into teste value
 select * from teste;
 
 drop table if exists teste;
+
