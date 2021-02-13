@@ -68,3 +68,5 @@ insert into teste value
 ('3','Luis','45');
 
 select * from teste;
+
+drop table if exists teste;
