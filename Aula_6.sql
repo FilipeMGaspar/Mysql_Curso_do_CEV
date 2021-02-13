@@ -31,3 +31,6 @@ alter table pessoas
 change column profissao prof varchar(20);
 
 select * from pessoas; 
+
+alter table pessoas
+rename to gafanhotos;
