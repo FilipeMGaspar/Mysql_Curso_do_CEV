@@ -11,3 +11,5 @@ select * from pessoas;
 
 alter table pessoas
 drop column profissao;
+
+describe pessoas;
