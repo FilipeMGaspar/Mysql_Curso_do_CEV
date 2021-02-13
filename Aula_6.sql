@@ -50,3 +50,8 @@ describe cursos;
 
 alter table cursos
 add column idCurso int first;
+
+alter table cursos
+add primary key (idCurso);
+
+describe cursos;
