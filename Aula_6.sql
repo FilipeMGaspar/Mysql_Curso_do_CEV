@@ -15,7 +15,7 @@ drop column profissao;
 describe pessoas;
 
 alter table pessoas
-add column profissao varchar(10) after nome;
+add column profissao varchar(10) default '' after nome;
 
 alter table pessoas
 add column codigo int first;
@@ -23,4 +23,6 @@ add column codigo int first;
 desc pessoas;
 
 alter table pessoas
-modify column profissao varchar(20);
+modify column profissao varchar(20) not null;
+
+select * from pessoas;
