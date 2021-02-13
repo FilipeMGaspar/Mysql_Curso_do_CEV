@@ -44,3 +44,9 @@ create table if not exists cursos(
     totAulas int,
     ano year default '2016'
 ) default charset=utf8;
+
+
+describe cursos;
+
+alter table cursos
+add column idCurso int first;
