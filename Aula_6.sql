@@ -13,3 +13,6 @@ alter table pessoas
 drop column profissao;
 
 describe pessoas;
+
+alter table pessoas
+add column profissao varchar(10) after nome;
