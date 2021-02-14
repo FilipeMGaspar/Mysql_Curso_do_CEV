@@ -13,4 +13,5 @@ insert into cursos values
 ('6', 'MySQL', 'Bancos de Dados MySQL', '30', '15', '2016'),
 ('7', 'Word', 'Curso completo de Word', '40', '30', '2016'),
 ('8', 'Sapateado', 'Danças Rítmicas', '40', '30', '2018'),
-('8', 'Sapateado', 'Danças Rítmicas', '40', '30', '2018'),
+('9', 'Cozinha Árabe', 'Aprenda a fazer Kibe', '40', '30', '2018'),
+('10', 'Youtuber', 'Gerar polémica e ganhar inscritos', '5', '2', '2018');
