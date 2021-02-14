@@ -27,3 +27,7 @@ update cursos set nome = 'Java', ano = '2015', carga = '40' where idcurso = '5' 
 update cursos set ano = '2050', carga = '800' where ano = '2018';
 
 update cursos set ano = '2018', carga = '0' where ano = '2050' limit 1;
+
+delete from cursos where idcurso = '8';
+
+select * from cursos;
