@@ -15,3 +15,7 @@ insert into cursos values
 ('8', 'Sapateado', 'Danças Rítmicas', '40', '30', '2018'),
 ('9', 'Cozinha Árabe', 'Aprenda a fazer Kibe', '40', '30', '2018'),
 ('10', 'Youtuber', 'Gerar polémica e ganhar inscritos', '5', '2', '2018');
+
+select * from cursos;
+
+update cursos set nome = 'HTML5' where idcurso = '1';
