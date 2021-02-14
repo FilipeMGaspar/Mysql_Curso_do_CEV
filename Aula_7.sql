@@ -19,3 +19,5 @@ insert into cursos values
 select * from cursos;
 
 update cursos set nome = 'HTML5' where idcurso = '1';
+
+update cursos set nome = 'PHP', ano = '2015' where idcurso = '4';
