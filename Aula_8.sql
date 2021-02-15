@@ -17,4 +17,8 @@ describe cursos;
 select * from gafanhotos;
 select * from cursos;
 
-drop database cadastro;
+/*drop database cadastro;*/
+
+select * from gafanhotos;
+
+select * from cursos;
