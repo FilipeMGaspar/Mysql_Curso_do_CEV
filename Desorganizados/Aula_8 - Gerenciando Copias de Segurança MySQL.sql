@@ -10,3 +10,15 @@ insert into cursos values
 ('5', 'Java', 'Intrudoção à Liguangem Java', '40', '29', '2015'),
 ('6', 'MySQL', 'Bancos de Dados MySQL', '30', '15', '2016'),
 ('7', 'Word', 'Curso completo de Word', '40', '30', '2016');
+
+describe gafanhotos;
+describe cursos;
+
+select * from gafanhotos;
+select * from cursos;
+
+/*drop database cadastro;*/
+
+select * from gafanhotos;
+
+select * from cursos;
