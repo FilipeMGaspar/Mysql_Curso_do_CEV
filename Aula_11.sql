@@ -12,3 +12,5 @@ select * from cursos order by nome asc;
 
 select ano, nome, carga from cursos order by ano;
 
+select ano, nome, carga from cursos order by ano, nome;
+
