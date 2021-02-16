@@ -14,3 +14,4 @@ select ano, nome, carga from cursos order by ano;
 
 select ano, nome, carga from cursos order by ano, nome;
 
+select * from cursos where ano = '2016' order by nome;
