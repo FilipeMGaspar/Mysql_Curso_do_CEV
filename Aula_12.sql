@@ -48,3 +48,13 @@ select max(carga) from cursos;
 select * from cursos where ano = '2014';
 
 select max(totAulas) from cursos where ano = '2014';
+
+select min(totAulas) from cursos;
+
+select min(totAulas), nome from cursos where ano = '2014'; /* Deu erro resolver*/
+
+select sum(totAulas) from cursos where ano ='2014';
+
+select avg(totAulas) from cursos;
+
+SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY','');
