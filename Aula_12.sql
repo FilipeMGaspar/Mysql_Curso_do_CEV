@@ -55,6 +55,6 @@ select min(totAulas), nome from cursos where ano = '2014'; /* Deu erro resolver*
 
 select sum(totAulas) from cursos where ano ='2014';
 
-select avg(totAulas) from cursos;
+select avg(totAulas) from cursos where ano = '2014';
 
-SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY','');
+/**/
