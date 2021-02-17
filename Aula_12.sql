@@ -20,3 +20,9 @@ select * from cursos where nome like 'PH%P_';
 select  * from cursos where nome like 'P_P%';
 
 select  * from cursos where nome like 'P__t%';
+
+select * from gafanhotos;
+
+select * from gafanhotos where nome like '%silva%';
+
+select distinct carga from cursos;
