@@ -93,5 +93,17 @@ select avg(totAulas) from cursos where ano = '2014';
 */
 
 /*Exercico 7
-	
+	Qual é a média de peso dos gafanhotos 
+    cadastrados;
+*/
+
+/*Exercicio 8
+	Qual é o menos peso entre as
+    gafanhotos mulheres que nasceram fora
+    do Brasil e entre 01/jan/1990 e 31/Dez/2000
+*/
+
+/*Exercicio 9
+	Quantas gafanhotos mulheres têm mais de 
+    1.90m de altura
 */
