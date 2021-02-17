@@ -38,3 +38,13 @@ select * from cursos;
 select count(*) from cursos;
 
 select * from cursos where carga > 30;
+
+select count(*) from cursos where carga > 30;
+
+select * from cursos order by carga;
+
+select max(carga) from cursos;
+
+select * from cursos where ano = '2014';
+
+select max(totAulas) from cursos where ano = '2014';
