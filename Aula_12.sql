@@ -57,4 +57,41 @@ select sum(totAulas) from cursos where ano ='2014';
 
 select avg(totAulas) from cursos where ano = '2014';
 
-/**/
+/*Exrecico 1
+	Uma lista com o nome de todas as gafanhotas 
+    sexo = 'F'
+*/
+
+/*Exercicio 2
+	uma lista com os dados de todos
+    aqueles que nasceram entre 1/jan/2000 
+    e 31/dez/2015
+*/
+
+/*Exercicio 3
+	uma lista com o nome de todos
+    os homens que trabalham como 
+    Programadores
+*/
+
+/*Exercicio 4
+	Uma lista com os dados de todas as
+    mulheres que nasceram no Brasil
+    têm seu nomo iniciando com a letra 'J'
+*/
+
+/*Exercico 5
+	Uma lista com o nome e nacionalidade 
+    de todos os homens que têm Silva no nome, 
+    não nasceram no Brasil e pesam
+    menos de 100 kg
+*/
+
+/*Exercico 6
+	Qual é maior altura entre gafanhotos
+    homens que moram no Brasil
+*/
+
+/*Exercico 7
+	
+*/
