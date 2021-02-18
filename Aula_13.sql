@@ -23,7 +23,6 @@ select avg(carga) from cursos;
 select * from cursos where ano > 2013 group by carga having carga > (select avg(carga) from cursos);
 
 
-
-
 /*Exercicio 1
+*
 */
