@@ -24,5 +24,20 @@ select * from cursos where ano > 2013 group by carga having carga > (select avg(
 
 
 /*Exercicio 1
-*
+Uma lista com as profissões dos gafanhotos e seus respectivos quantitativos
+*/
+
+/*Exercicio 2
+Quantos gafanhots homens e quantos mulheres nasceram após 01/jan/2005
+*/
+
+/*Exercicio 3
+Uma lista com os gafanhotos que
+nasceram fora do Brasil, mostrando o 
+país de origem e o total de pessoas
+nascidos lá. Só nos interessam os países que tiverem mais de 3 gafanhotos com essa nacionalidade
+*/
+
+/*Exercicio 4
+
 */
