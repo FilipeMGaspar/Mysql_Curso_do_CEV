@@ -20,8 +20,10 @@ select ano, count(*) from cursos where totAulas > 30 group by ano having ano > 2
 
 select avg(carga) from cursos;
 
-select * from cursos where ano > 2013;
+select * from cursos where ano > 2013 group by carga having carga > (select avg(carga) from cursos);
 
 
-/*
+
+
+/*Exercicio 1
 */
