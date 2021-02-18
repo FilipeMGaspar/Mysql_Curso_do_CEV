@@ -39,5 +39,9 @@ nascidos lá. Só nos interessam os países que tiverem mais de 3 gafanhotos com
 */
 
 /*Exercicio 4
-
+Uma lista agrupada pela altura dos 
+gafanhotos, mostrando quantas pessoas
+pesam mais de 100Kg e que estão acima
+da média de altura de todos os 
+cadastro
 */
