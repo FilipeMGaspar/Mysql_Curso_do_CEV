@@ -17,5 +17,5 @@ insert into gafanhoto_assiste_curso values
 
 select * from gafanhoto_assiste_curso;
 
-select * from gafanhotos g join gafanhoto_assiste_curso a 
+select g.id, g.nome, a.idgafanhoto, idCurso from gafanhotos g join gafanhoto_assiste_curso a 
 on g.id = a.idgafanhoto; 
