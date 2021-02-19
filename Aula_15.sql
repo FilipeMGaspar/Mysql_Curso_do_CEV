@@ -24,3 +24,5 @@ select * from gafanhotos;
 delete from cursos where idCurso = '6';
 
 delete from cursos where idCurso = '8';
+
+select * from cursos;
