@@ -16,3 +16,6 @@ insert into gafanhoto_assiste_curso values
 (default, '2014-03-01', '1','2');
 
 select * from gafanhoto_assiste_curso;
+
+select * from gafanhotos g join gafanhoto_assiste_curso a 
+on g.id = a.idgafanhoto; 
