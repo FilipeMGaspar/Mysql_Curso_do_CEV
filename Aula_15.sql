@@ -8,6 +8,8 @@ describe gafanhotos;
 
 desc cursos;
 
+select * from cursos;
+
 alter table gafanhotos add foreign key (cursoperferido) references cursos(idCurso);
 
 describe gafanhotos;
@@ -20,3 +22,5 @@ update gafanhotos set cursoperferido = '6' where id = '1';
 select * from gafanhotos;
 
 delete from cursos where idCurso = '6';
+
+delete from cursos where idCurso = '8';
