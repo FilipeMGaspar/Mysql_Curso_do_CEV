@@ -6,4 +6,8 @@ alter table gafanhotos add column cursoperferido int;
 
 describe gafanhotos;
 
-alter table gafanhotos add foreign key (cursoperferido)
+desc cursos;
+
+alter table gafanhotos add foreign key (cursoperferido) references cursos(idCurso);
+
+describe gafanhotos;
