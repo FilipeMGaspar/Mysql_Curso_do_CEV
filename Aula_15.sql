@@ -28,3 +28,7 @@ delete from cursos where idCurso = '8';
 select * from cursos;
 
 select nome, cursoperferido from gafanhotos;
+
+select nome, ano from cursos;
+
+select gafanhotos.nome, gafanhotos.cursoperferido, cursos.nome, cursos.ano from  gafanhotos join cursos;
