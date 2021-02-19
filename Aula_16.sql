@@ -22,7 +22,7 @@ from gafanhotos g join gafanhoto_assiste_curso a
 on g.id = a.idgafanhoto 
 order by g.nome;
 
- select g.id, g.nome, a.idgafanhoto, c.idCurso, c.nome
+ select g.nome, c.nome
 from gafanhotos g join gafanhoto_assiste_curso a 
 on g.id = a.idgafanhoto 
 join cursos c 
