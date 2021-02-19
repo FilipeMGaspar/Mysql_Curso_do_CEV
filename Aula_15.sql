@@ -33,3 +33,4 @@ select nome, ano from cursos;
 
 select gafanhotos.nome, cursos.nome, cursos.ano from  gafanhotos join cursos on cursos.idCurso = gafanhotos.cursoperferido;
 
+select gafanhotos.nome, cursos.nome, cursos.ano from  gafanhotos left outer join cursos on cursos.idCurso = gafanhotos.cursoperferido;
