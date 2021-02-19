@@ -11,3 +11,8 @@ desc cursos;
 alter table gafanhotos add foreign key (cursoperferido) references cursos(idCurso);
 
 describe gafanhotos;
+
+select * from gafanhotos;
+select * from cursos;
+
+update gafanhotos set cursoperferido = '6' where id = '1';
