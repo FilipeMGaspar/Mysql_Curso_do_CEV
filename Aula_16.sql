@@ -11,3 +11,8 @@ create table gafanhoto_assiste_curso(
 ) default charset = utf8;
 
 show tables;
+
+insert into gafanhoto_assiste_curso values
+(default, '2014-03-01', '1','2');
+
+select * from gafanhoto_assiste_curso;
