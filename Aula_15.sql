@@ -16,3 +16,7 @@ select * from gafanhotos;
 select * from cursos;
 
 update gafanhotos set cursoperferido = '6' where id = '1';
+
+select * from gafanhotos;
+
+delete from cursos where idCurso = '6';
