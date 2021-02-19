@@ -20,4 +20,11 @@ select * from gafanhoto_assiste_curso;
 select g.id, g.nome, a.idgafanhoto, idCurso
 from gafanhotos g join gafanhoto_assiste_curso a 
 on g.id = a.idgafanhoto 
-order by g.nome; 
+order by g.nome;
+
+ select g.id, g.nome, a.idgafanhoto, c.idCurso, c.nome
+from gafanhotos g join gafanhoto_assiste_curso a 
+on g.id = a.idgafanhoto 
+join cursos c 
+on c.idCurso = a.idcurso
+order by g.nome;
