@@ -109,10 +109,12 @@ select max(altura) from gafanhotos where nacionalidade ='Brasil' and sexo='M';
 select avg(peso) from gafanhotos;
 
 /*Exercicio 8
-	Qual é o menos peso entre as
+	Qual é o menor peso entre as
     gafanhotos mulheres que nasceram fora
     do Brasil e entre 01/jan/1990 e 31/Dez/2000
 */
+select nome, min(peso), nacionalidade, nascimento from gafanhotos where sexo = 'F' and nacionalidade != 'Brasil' and nascimento between '1990-01-01' and '2000-12-31';
+
 
 /*Exercicio 9
 	Quantas gafanhotos mulheres têm mais de 
