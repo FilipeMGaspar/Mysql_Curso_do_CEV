@@ -120,3 +120,4 @@ select nome, min(peso), nacionalidade, nascimento from gafanhotos where sexo = '
 	Quantas gafanhotos mulheres têm mais de 
     1.90m de altura
 */
+select count(*) from gafanhotos where sexo = 'F' and altura > 1.9;
