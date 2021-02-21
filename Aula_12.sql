@@ -99,6 +99,8 @@ select nome, nacionalidade, peso from gafanhotos where sexo = 'M'and nacionalida
 	Qual é maior altura entre gafanhotos
     homens que moram no Brasil
 */
+select max(altura) from gafanhotos where nacionalidade ='Brasil' and sexo='M';	
+
 
 /*Exercico 7
 	Qual é a média de peso dos gafanhotos 
