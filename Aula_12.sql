@@ -106,6 +106,7 @@ select max(altura) from gafanhotos where nacionalidade ='Brasil' and sexo='M';
 	Qual é a média de peso dos gafanhotos 
     cadastrados;
 */
+select avg(peso) from gafanhotos;
 
 /*Exercicio 8
 	Qual é o menos peso entre as
