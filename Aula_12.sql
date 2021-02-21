@@ -61,6 +61,7 @@ select avg(totAulas) from cursos where ano = '2014';
 	Uma lista com o nome de todas as gafanhotas 
     sexo = 'F'
 */
+select nome from gafanhotos where sexo='F';
 
 /*Exercicio 2
 	uma lista com os dados de todos
