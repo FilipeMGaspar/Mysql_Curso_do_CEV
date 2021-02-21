@@ -76,6 +76,8 @@ select * from gafanhotos where nascimento between '2000-01-01' and '2015-12-31';
     os homens que trabalham como 
     Programadores
 */
+select nome from gafanhotos where sexo = 'M' and prof = 'Programador';
+
 
 /*Exercicio 4
 	Uma lista com os dados de todas as
