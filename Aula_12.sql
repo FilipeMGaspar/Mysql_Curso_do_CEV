@@ -84,6 +84,8 @@ select nome from gafanhotos where sexo = 'M' and prof = 'Programador';
     mulheres que nasceram no Brasil
     têm seu nomo iniciando com a letra 'J'
 */
+select * from gafanhotos where sexo = 'F' and nacionalidade = 'Brasil' and	nome like 'J%';
+
 
 /*Exercico 5
 	Uma lista com o nome e nacionalidade 
