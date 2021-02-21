@@ -93,6 +93,7 @@ select * from gafanhotos where sexo = 'F' and nacionalidade = 'Brasil' and	nome 
     não nasceram no Brasil e pesam
     menos de 100 kg
 */
+select nome, nacionalidade, peso from gafanhotos where sexo = 'M'and nacionalidade != 'Brasil' and nome like '%Silva%' and peso > 100;
 
 /*Exercico 6
 	Qual é maior altura entre gafanhotos
