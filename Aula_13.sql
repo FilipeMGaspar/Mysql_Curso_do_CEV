@@ -31,6 +31,8 @@ select prof, count(*) from gafanhotos group by prof order by count(*) desc;
 /*Exercicio 2
 Quantos gafanhots homens e quantos mulheres nasceram após 01/jan/2005
 */
+select sexo, count(sexo) from gafanhotos where nascimento > '2005-01-01' group by sexo;
+
 
 /*Exercicio 3
 Uma lista com os gafanhotos que
