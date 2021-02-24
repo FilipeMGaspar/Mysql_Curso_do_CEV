@@ -50,5 +50,5 @@ pesam mais de 100Kg e que estão acima
 da média de altura de todos os 
 cadastro
 */
-select nome, altura, count(altura) from gafanhotos group by altura having altura > (select avg(altura) from gafanhotos);
+select nome, altura, count(altura) from gafanhotos group by altura having altura > (select avg(altura) from gafanhotos where peso > 100);
 select * from gafanhotos;
