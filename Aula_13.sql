@@ -26,6 +26,7 @@ select * from cursos where ano > 2013 group by carga having carga > (select avg(
 /*Exercicio 1
 Uma lista com as profissões dos gafanhotos e seus respectivos quantitativos
 */
+select prof from gafanhotos where prof != "";
 
 /*Exercicio 2
 Quantos gafanhots homens e quantos mulheres nasceram após 01/jan/2005
