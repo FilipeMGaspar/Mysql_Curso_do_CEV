@@ -40,8 +40,8 @@ nasceram fora do Brasil, mostrando o
 país de origem e o total de pessoas
 nascidos lá. Só nos interessam os países que tiverem mais de 3 gafanhotos com essa nacionalidade
 */
-select nacionalidade, count(nacionalidade) from gafanhotos where nacionalidade != 'Brasil' group by nacionalidade;
-select * from gafanhotos;
+select nacionalidade, count(nacionalidade) from gafanhotos where  nacionalidade != 'Brasil' group by nacionalidade having count(nacionalidade)>=3;
+
 
 /*Exercicio 4
 Uma lista agrupada pela altura dos 
